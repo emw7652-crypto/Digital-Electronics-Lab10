@@ -8,7 +8,7 @@ int potPin = A0;
 int direction = 1;  
 int switchPin = 7;
 int randomSwitchPin = 8; 
-
+// Setup Area
 void setup() {
   Serial.begin(9600);
   pinMode(switchPin, INPUT);
